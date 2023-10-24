@@ -38,7 +38,7 @@ public class App {
   .header("swg-subscription-key","37e4db18b1f248568fb8d13e271485eb")
   .get("/ticket/dev01/ext/vi/api/product/detail?id=2440&siteCode=HLC&date=2023-11-29&saleChannel=TOL")
   ;
-  String strRes = res.asPrettyString();
+
   
   JsonPath jsp = res.jsonPath();
   JsonPath newjsp = given("{\"not_before\": 1696487115,\r\n"
