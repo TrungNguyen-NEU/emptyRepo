@@ -54,9 +54,5 @@ public class App {
   //System.out.println(strRes);
   System.out.println(cookies);
   
-  //System.out.println(jspstr);
-  //System.out.println(jsp);
-
-  //System.out.println(items);
   }
 }
